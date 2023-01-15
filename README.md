@@ -1,30 +1,23 @@
-# {{.TEMPLATE}}
-[![{{.template}}](https://github.com/bytemare/{{.template}}/actions/workflows/ci.yml/badge.svg)](https://github.com/bytemare/{{.template}}/actions/workflows/ci.yml)
-[![Go Reference](https://pkg.go.dev/badge/github.com/bytemare/{{.template}}.svg)](https://pkg.go.dev/github.com/bytemare/{{.template}})
-[![codecov](https://codecov.io/gh/bytemare/{{.template}}/branch/main/graph/badge.svg?token=5bQfB0OctA)](https://codecov.io/gh/bytemare/{{.template}})
+# HPKE
+[![hpke](https://github.com/bytemare/hpke/actions/workflows/ci.yml/badge.svg)](https://github.com/bytemare/hpke/actions/workflows/ci.yml)
+[![Go Reference](https://pkg.go.dev/badge/github.com/bytemare/hpke.svg)](https://pkg.go.dev/github.com/bytemare/hpke)
+[![codecov](https://codecov.io/gh/bytemare/hpke/branch/main/graph/badge.svg?token=5bQfB0OctA)](https://codecov.io/gh/bytemare/hpke)
 
 ```
-  import "github.com/bytemare/{{.template}}"
+  import "github.com/bytemare/hpke"
 ```
-{{Short description}}
+
+This package implements the [HPKE RFC 9180](https://datatracker.ietf.org/doc/rfc9180/), and exposes an easy-to use API with multiple ciphersuites.
 
 This package is continuously fuzzed on Fuzzbuzz.
 
-#### What is {{.template}}?
+## Documentation [![Go Reference](https://pkg.go.dev/badge/github.com/bytemare/hpke.svg)](https://pkg.go.dev/github.com/bytemare/hpke)
 
-> {{Short Philosophy about the concept we're implementing.}}
-
-#### References
-- {{If you have any, put links that can help know more.}}
-
-## Documentation [![Go Reference](https://pkg.go.dev/badge/github.com/bytemare/{{.template}}.svg)](https://pkg.go.dev/github.com/bytemare/{{.template}})
-
-You can find the documentation and usage examples in [the package doc](https://pkg.go.dev/github.com/bytemare/{{.template}}) and [the project wiki](https://github.com/bytemare/{{.template}}/wiki) .
+You can find the documentation and usage examples in [the package doc](https://pkg.go.dev/github.com/bytemare/hpke) and [the project wiki](https://github.com/bytemare/hpke/wiki) .
 
 ## Versioning
 
-[SemVer](http://semver.org) is used for versioning. For the versions available, see the [tags on the repository](https://github.com/bytemare/{{.template}}/tags).
-
+[SemVer](http://semver.org) is used for versioning. For the versions available, see the [tags on the repository](https://github.com/bytemare/hpke/tags).
 
 ## Contributing
 

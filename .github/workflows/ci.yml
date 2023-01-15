@@ -1,4 +1,4 @@
-name: {{.TEMPLATE}}
+name: HPKE
 on:
   push:
     branches: [ main ]
@@ -81,7 +81,7 @@ jobs:
       #    SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
       #  with:
       #    args: >
-      #      -Dsonar.projectKey=bytemare_{{.template}}
+      #      -Dsonar.projectKey=bytemare_hpke
       #      -Dsonar.organization=bytemare-github
       #      -Dsonar.sources=.
       #      -Dsonar.go.coverage.reportPaths=.github/coverage.out
